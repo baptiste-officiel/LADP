@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Exo", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 span {
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin: 0 auto 40px;
+  color: #303030;
+}
+
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+.black {
+  color: #303030;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.black:hover {
+  color: rgb(168, 168, 168);
+}
+
+.bouton-orange {
+  border: none;
+  border: 1px solid #d18b84;
+  border-radius: 10px;
+  padding: 8px 14px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  color: #f5f5f5;
+  background-color: #d18b84;
+}
+.bouton-orange:hover {
+  background: none;
+  color: #d18b84;
+}
+
+/* .bouton-orange:hover::after{
+    content: "";
+    width: 150px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 50px;
+} */
+.bande {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  z-index: 10;
+}
+
+.fond-bande {
+  background-color: white;
+  transition: 0.5s;
+  box-shadow: 0 0 6px black;
+}
+
+header#bandeau {
+  background: url(../img/plane_background.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  /* margin-top: 100px; */
+  /* padding-top: 90px; */
+  position: relative;
+  /* top: 0; */
+}
+header#bandeau #nav-bandeau {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  /* top: 10px; */
+  padding-top: 5px;
+  z-index: 100000000000;
+  margin: 0 auto;
+}
+header#bandeau #nav-bandeau a:first-child {
+  z-index: 10000000;
+}
+header#bandeau #nav-bandeau .logo {
+  width: 80px;
+  height: auto;
+  margin-left: 20px;
+  /* margin-top: 20px; */
+  /* background-color: black; */
+  z-index: 1000000;
+}
+
+header#bandeau #nav-bandeau #menu-bandeau #burger-img {
+  display: block;
+  text-align: right;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  right: 25px;
+  top: 12px;
+}
+
+header#bandeau #nav-bandeau #menu-bandeau #menu {
+  /* display: flex;  */
+  /* flex-wrap: wrap;  */
+  /* flex-direction: row; */
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: rgb(245, 245, 245);
+  /* background-color: rgb(26, 26, 26); */
+  top: 0;
+  text-align: center;
+  /* box-sizing: border-box; */
+  /* padding-right: 25px; */
+  width: 100%;
+  /* padding-left: 20px; */
+  /* padding-top: 75px; */
+  height: 100vh;
+  padding: 30vh 0;
+  box-sizing: border-box;
+  z-index: 100;
+  color: #303030;
+}
+header#bandeau #nav-bandeau #menu-bandeau #menu li {
+  padding: 20px 0;
+}
+header#bandeau #nav-bandeau #menu-bandeau #menu #croix {
+  position: absolute;
+  top: 25px;
+  right: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+header#bandeau #titre {
+  text-align: center;
+  color: #303030;
+  /* margin-top: 60px; */
+  padding-top: 180px;
+  font-size: 2.6rem;
+}
+header#bandeau #titre span:last-child {
+  font-size: 2rem;
+}
+header#bandeau #titre hr {
+  width: 150px;
+  height: 1px;
+  border: 1px solid #303030;
+  background-color: #303030;
+  border-radius: 50%;
+  margin: 10px auto;
+  color: #303030;
+}
+
+header#bandeau p {
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  color: #303030;
+  margin-top: 80px;
+  font-size: 1.5rem;
+  width: 300px;
+}
+
+main.container {
+  width: 100%;
+}
+main.container section.contenu {
+  width: 100%;
+  margin: 0 auto;
+  text-align: justify;
+  padding-top: 40px;
+  color: #303030;
+  background-color: rgb(255, 255, 255);
+}
+main.container section.contenu .avion {
+  padding: 0px 5% 20px;
+  box-sizing: border-box;
+}
+main.container section.contenu h4 {
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+}
+main.container section.contenu img {
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+main.container section.contenu p.description-avion {
+  margin-bottom: 40px;
+}
+main.container section.contenu p.infos-avion {
+  text-align: center;
+  margin-top: 10px;
+}
+main.container section.contenu p.infos-avion span {
+  font-weight: 600;
+}
+
+main.container section.contenu article.location {
+  background: url(../img/fond-location.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+main.container section.contenu article.location .location-content {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main.container section.contenu article.location h2 {
+  color: #f5f5f5;
+}
+main.container section.contenu article.location p.conditions-location {
+  text-align: center;
+  font-weight: 100;
+  width: 90%;
+  margin: 0 auto;
+  color: #f5f5f5;
+  line-height: 1.4rem;
+}
+
+main.container #contact {
+  color: #303030;
+  margin-bottom: 80px;
+  padding-top: 80px;
+}
+main.container #contact p.renseignements {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+main.container #contact p.renseignements a {
+  font-weight: 600;
+}
+
+main.container #contact #contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 30px auto;
+}
+main.container #contact #contact-form input, main.container #contact #contact-form textarea {
+  width: 90%;
+  margin: 12px auto 0;
+  padding: 6px;
+  border: none;
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 5px;
+}
+main.container #contact #contact-form #champ-obligatoire {
+  font-size: 0.7rem;
+  font-style: italic;
+  margin-top: 10px;
+  width: 100%;
+}
+main.container #contact #contact-form button {
+  margin: 30px auto;
+  cursor: pointer;
+}
+
+main.container #contact #contact-form #utilisation-donnees input {
+  width: 40px;
+}
+main.container #contact #contact-form #utilisation-donnees label {
+  font-size: 0.8rem;
+}
+
+footer#pied {
+  text-align: center;
+  background-color: #303030;
+  color: #f5f5f5;
+  padding: 15px 0;
+}
+footer#pied a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+#rgpd, #mentions-legales {
+  width: 100%;
+  margin-top: 50px;
+}
+#rgpd p, #mentions-legales p {
+  width: 85%;
+  margin: 0 auto;
+}
+#rgpd a.bouton-orange, #mentions-legales a.bouton-orange {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}/*# sourceMappingURL=style.css.map */
