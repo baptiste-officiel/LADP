@@ -309,17 +309,22 @@ footer#pied a {
   text-decoration: none;
 }
 
-#rgpd, #mentions-legales {
+#rgpd, #mentions-legales, #confirmation {
   width: 100%;
-  margin-top: 50px;
+  margin: 50px auto;
 }
-#rgpd p, #mentions-legales p {
+#rgpd p, #mentions-legales p, #confirmation p {
   width: 85%;
   margin: 0 auto;
 }
-#rgpd a.bouton-orange, #mentions-legales a.bouton-orange {
+#rgpd a.bouton-orange, #mentions-legales a.bouton-orange, #confirmation a.bouton-orange {
   display: inline-block;
   margin-top: 20px;
   margin-left: 50%;
   transform: translateX(-50%);
+}
+
+#confirmation p {
+  text-align: center;
+  margin: 20px auto;
 }/*# sourceMappingURL=style.css.map */
