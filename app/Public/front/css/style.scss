@@ -25,7 +25,7 @@ ul{
 }
 
 h1 span{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h2{
@@ -34,7 +34,7 @@ h2{
     font-weight: 400;
     margin: 0 auto 40px;
     color: $couleur-txt-fonce;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -171,7 +171,7 @@ header#bandeau #nav-bandeau #menu-bandeau #burger-img{
     cursor: pointer;
     position: absolute;
     z-index: 100;
-    right: 25px;
+    right: 10px;
     top : 12px;
 }
 
