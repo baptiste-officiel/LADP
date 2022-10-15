@@ -54,10 +54,12 @@ menu.addEventListener('click', function(){
 
 let bouton = document.getElementById('btn-envoi');
 let caseCocher = document.getElementById('validation');
+let alert = document.getElementById('alerte-accept-data');
 
 function caseIsChecked(){
     if (caseCocher.checked === false){
-        alert('Vous devez cocher la case');
+        // alert('Vous devez cocher la case');
+        alert.innerHTML = 'Vous devez cocher cette case afin d\'envoyer votre message !';
         return false;
     } else{
         onsubmit = true;

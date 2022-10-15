@@ -6,19 +6,22 @@ require_once 'layouts/header.php';
 
 
 <section class="contenu">
-<h2>Notre avion</h2>
+    
+    <article class="avion" id="avion">
+    <h2>Notre avion</h2>
 
-<article class="avion" id="avion">
-
-<h4>Le VL3</h4>
-<img src="./app/Public/front/img/lapd_8.jpeg" alt="Le VL3">
-
-
+    <h4 id="name-mobile">Le VL3</h4>
+    <img src="./app/Public/front/img/lapd_8.jpeg" alt="Le VL3">
+    
+    
+    <div id="texte-avion">
+    <h4 id="name-desktop">Le VL3</h4>
 <p class="description-avion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti fuga, officiis enim unde dolorem veniam, suscipit asperiores qui facere distinctio delectus sed, aspernatur sunt?</p>
 
 <p class="infos-avion">Nombre de places : <span>2</span></p>
 <p class="infos-avion">Vitesse max : <span>300 km/h</span></p>
 <p class="infos-avion">Prix de la location : <span>150 €/h</span></p>
+</div>
 </article>
 
 </section>
@@ -55,6 +58,7 @@ require_once 'layouts/header.php';
         <div id="utilisation-donnees">
             <input type="checkbox" name="validation" id="validation">
         <label for="validation">En cochant cette case vous acceptez l'utilisation de vos données.*</label>
+        <p id="alerte-accept-data"></p>
         </div>
 
         <button type="submit" class="bouton-orange" id="btn-envoi">Envoyer</button>

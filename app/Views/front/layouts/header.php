@@ -7,9 +7,8 @@
     <title>Les Ailes du Plaisir</title>
     <link rel="stylesheet" href="./app/Public/front/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;600&family=Raleway&display=swap" rel="stylesheet">
-</head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Exo:wght@400;600&family=Julius+Sans+One&family=Raleway&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Exo:wght@400;600&family=Julius+Sans+One&family=Merriweather&family=Raleway&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Exo:wght@400;600&family=Julius+Sans+One&family=Merriweather&family=Nunito&family=Raleway&display=swap" rel="stylesheet"></head>
 <body>
     
     <div class="bande"></div>
@@ -38,13 +37,15 @@
 
     
 
-    <h1 id="titre" class="container"><span>LADP</span>  <hr> 
+        <div id="text-header" class="container">
+        <h1 id="titre" class="container"><span>LADP</span>  <hr> 
  <span>Les Ailes du Plaisir</span></h1>
     
 
     <p class="container">
-    Location d’avion de tourisme à Lyon 
+    Location d’avion de tourisme
     </p>
+        </div>
 
     <!-- <a href="#contenu" class="bouton-orange">Découvrir l'avion</a> -->
     
