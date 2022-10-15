@@ -32,13 +32,20 @@ let lienMenu = document.querySelectorAll('#menu li');
     // }
 
 burger.addEventListener('click', function(){
-    menu.style.display = 'block';
+    // menu.style.display = 'block';
+    menu.classList.add('active');
+    console.log('bite');
 
 })
 croix.addEventListener('click', function(){
     menu.style.display = null;
-    menu.style.display = 'none';
+    // menu.style.display = 'none';
+    menu.classList.remove('active');
     console.log('prout');
+})
+
+menu.addEventListener('click', function(){
+    menu.classList.remove('active');
 })
 
 

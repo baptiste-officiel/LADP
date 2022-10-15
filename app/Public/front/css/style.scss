@@ -121,7 +121,7 @@ header#bandeau{
     // background-position: right;
     background-size: cover;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     /* margin-top: 100px; */
     /* padding-top: 90px; */
     position: relative;
@@ -176,7 +176,7 @@ header#bandeau #nav-bandeau #menu-bandeau #menu{
     /* display: flex;  */
     /* flex-wrap: wrap;  */
     /* flex-direction: row; */
-    display: none; 
+    // display: none; 
     position: absolute; 
     left: 0;
     background-color: rgba(245, 245, 245, 1);
@@ -193,6 +193,13 @@ header#bandeau #nav-bandeau #menu-bandeau #menu{
     box-sizing: border-box; 
     z-index: 100;
     color: $couleur-txt-fonce;
+    // opacity: 0;
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out;
+    &.active{
+        // background-color: rebeccapurple;
+        transform: translate(0);
+    }
         li{
             padding: 20px 0;
         }
