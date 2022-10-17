@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="./app/Public/front/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Exo:wght@400;600&family=Julius+Sans+One&family=Raleway&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Exo:wght@400;600&family=Julius+Sans+One&family=Merriweather&family=Raleway&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Exo:wght@400;600&family=Julius+Sans+One&family=Merriweather&family=Nunito&family=Raleway&display=swap" rel="stylesheet"></head>
-<body>
-    
-    <div class="bande"></div>
+<link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Azeret+Mono:wght@400;600&family=Exo:wght@400;600&family=Julius+Sans+One&family=Merriweather&family=Montserrat:wght@400;600;700&family=Nunito&family=Oswald:wght@400;600&family=Raleway&display=swap" rel="stylesheet">    <div class="bande"></div>
 <header id="bandeau">
         <nav class="container" id="nav-bandeau">
         <!-- logo -->
@@ -25,9 +22,9 @@
              
              <ul id="menu">
                         <img src="./app/Public/front/img/croix.svg" alt="Croix" id="croix">
-                        <li><a href="index.php" class="black">Accueil</a></li>
-                        <li><a href="#avion" class="black">Notre avion</a></li>
-                        <li><a href="#location" class="black">Location</a></li>
+                        <li><a href="index.php" class="white">Accueil</a></li>
+                        <li><a href="#avion" class="white">Notre avion</a></li>
+                        <li><a href="#location" class="white">Location</a></li>
                         <li><a href="#contact" class="bouton-orange">Contact</a></li>
                         <!-- <li><a href="index.php?action=connexion">Connexion</a><a href="index.php?action=inscription">Inscription</a></li> -->
                     </ul>

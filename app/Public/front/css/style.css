@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-family: "Exo", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
@@ -18,9 +18,10 @@ ul {
 }
 
 h1 span {
-  font-family: "Raleway", sans-serif;
-  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
 h2 {
@@ -29,12 +30,20 @@ h2 {
   font-weight: 400;
   margin: 0 auto 40px;
   color: #303030;
-  font-family: "Raleway", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #303030;
+}
+
+.white {
+  color: #f5f5f5;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.white:hover {
+  color: rgb(168, 168, 168);
 }
 
 .black {
@@ -55,22 +64,13 @@ a {
   text-transform: uppercase;
   color: #f5f5f5;
   background-color: #d18b84;
+  transition: 0.3s;
 }
 .bouton-orange:hover {
   background: none;
   color: #d18b84;
 }
 
-/* .bouton-orange:hover::after{
-    content: "";
-    width: 150px;
-    height: 10px;
-    background-color: rgba(0, 0, 0, 0.507);
-    border-radius: 50%;
-    position: absolute;
-    left: 15px;
-    top: 50px;
-} */
 .bande {
   width: 100%;
   height: 90px;
@@ -85,10 +85,10 @@ a {
 }
 
 header#bandeau {
-  background: url(../img/fond_mobile_header.jpg) no-repeat center;
+  background: url(../img/lapd_3.jpeg) no-repeat;
   background-size: cover;
   width: 100%;
-  height: 70vh;
+  height: 50vh;
   min-height: 500px;
   /* margin-top: 100px; */
   /* padding-top: 90px; */
@@ -173,9 +173,10 @@ header#bandeau #text-header {
   bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
+  padding: 30px 0;
 }
 header#bandeau #text-header #titre {
-  color: #303030;
+  color: #f5f5f5;
   /* margin-top: 60px; */
   margin-bottom: 0;
   padding-left: 30px;
@@ -186,17 +187,17 @@ header#bandeau #text-header #titre span:last-child {
   font-size: 1.7rem;
 }
 header#bandeau #text-header #titre hr {
-  width: 100px;
+  width: 80px;
   height: 1px;
-  border: 1px solid #303030;
-  background-color: #303030;
+  border: 1px solid #f5f5f5;
+  background-color: white;
   border-radius: 50%;
   color: #303030;
 }
 
 header#bandeau p {
-  font-family: "Exo", sans-serif;
-  color: #303030;
+  font-family: "Montserrat", sans-serif;
+  color: #f5f5f5;
   margin-top: 30px;
   font-size: 1.3rem;
   max-width: 250px;
@@ -204,10 +205,10 @@ header#bandeau p {
   margin-left: 30px;
 }
 
-main.container {
+main {
   width: 100%;
 }
-main.container section.contenu {
+main section.contenu {
   width: 100%;
   margin: 0 auto;
   text-align: justify;
@@ -215,54 +216,54 @@ main.container section.contenu {
   color: #303030;
   background-color: rgb(255, 255, 255);
 }
-main.container section.contenu .avion {
+main section.contenu .avion {
   padding: 0px 5% 20px;
   box-sizing: border-box;
 }
-main.container section.contenu h4 {
+main section.contenu h4 {
   font-size: 1.4rem;
   font-weight: 900;
   text-align: left;
   font-family: "Raleway", sans-serif;
 }
-main.container section.contenu img {
+main section.contenu img {
   width: 100%;
   margin: 20px auto;
   border-radius: 10px;
 }
-main.container section.contenu h4#name-desktop {
+main section.contenu h4#name-desktop {
   display: none;
 }
-main.container section.contenu p.description-avion {
+main section.contenu p.description-avion {
   margin-bottom: 40px;
 }
-main.container section.contenu p.infos-avion {
+main section.contenu p.infos-avion {
   text-align: center;
   margin-top: 10px;
 }
-main.container section.contenu p.infos-avion span {
+main section.contenu p.infos-avion span {
   font-weight: 600;
 }
 
-main.container section.contenu article.location {
+main section.contenu article.location {
   background: url(../img/fond-location.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 90vh;
   position: relative;
 }
-main.container section.contenu article.location .location-content {
+main section.contenu article.location .location-content {
   width: 80%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-main.container section.contenu article.location h2 {
+main section.contenu article.location h2 {
   color: #f5f5f5;
 }
-main.container section.contenu article.location p.conditions-location {
-  text-align: center;
+main section.contenu article.location p.conditions-location {
+  text-align: justify;
   font-weight: 100;
   width: 90%;
   margin: 0 auto;
@@ -270,27 +271,27 @@ main.container section.contenu article.location p.conditions-location {
   line-height: 1.4rem;
 }
 
-main.container #contact {
+main #contact {
   color: #303030;
   margin-bottom: 80px;
   padding-top: 80px;
 }
-main.container #contact p.renseignements {
+main #contact p.renseignements {
   margin: 0 auto;
   text-align: center;
   width: 80%;
 }
-main.container #contact p.renseignements a {
+main #contact p.renseignements a {
   font-weight: 600;
 }
 
-main.container #contact #contact-form {
+main #contact #contact-form {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
   margin: 30px auto;
 }
-main.container #contact #contact-form input, main.container #contact #contact-form textarea {
+main #contact #contact-form input, main #contact #contact-form textarea {
   width: 90%;
   margin: 12px auto 0;
   padding: 6px;
@@ -298,27 +299,27 @@ main.container #contact #contact-form input, main.container #contact #contact-fo
   border: 1px solid rgb(153, 153, 153);
   border-radius: 5px;
 }
-main.container #contact #contact-form #champ-obligatoire {
+main #contact #contact-form #champ-obligatoire {
   font-size: 0.7rem;
   font-style: italic;
   margin-top: 10px;
   width: 100%;
 }
-main.container #contact #contact-form button {
+main #contact #contact-form button {
   margin: 30px auto;
   cursor: pointer;
 }
 
-main.container #contact #contact-form #utilisation-donnees {
+main #contact #contact-form #utilisation-donnees {
   width: 100%;
 }
-main.container #contact #contact-form #utilisation-donnees input {
+main #contact #contact-form #utilisation-donnees input {
   width: 20px;
 }
-main.container #contact #contact-form #utilisation-donnees label {
+main #contact #contact-form #utilisation-donnees label {
   font-size: 0.8rem;
 }
-main.container #contact #contact-form #utilisation-donnees p#alerte-accept-data {
+main #contact #contact-form #utilisation-donnees p#alerte-accept-data {
   font-size: 0.7rem;
   color: rgb(241, 47, 47);
   margin-top: 10px;
@@ -362,6 +363,17 @@ footer#pied a {
   h2 {
     font-size: 2.8rem;
   }
+  header#bandeau {
+    background: url(../img/lapd_3.jpeg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    min-height: 500px;
+    /* margin-top: 100px; */
+    /* padding-top: 90px; */
+    position: relative;
+    background-position-y: -200px;
+  }
   header#bandeau #nav-bandeau {
     width: 100%;
     display: flex;
@@ -402,30 +414,30 @@ footer#pied a {
   header#bandeau #text-header #titre hr {
     width: 150px;
   }
-  main.container {
+  main {
     width: 100%;
   }
-  main.container section.contenu {
+  main section.contenu {
     width: 100%;
     margin: 0 auto;
     padding-top: 40px;
     color: #303030;
   }
-  main.container section.contenu .avion {
+  main section.contenu .avion {
     display: flex;
     flex-wrap: wrap;
     padding: 0px 5% 20px;
     box-sizing: border-box;
     width: 100%;
   }
-  main.container section.contenu h2 {
+  main section.contenu h2 {
     width: 100%;
     order: 1;
   }
-  main.container section.contenu h4#name-mobile {
+  main section.contenu h4#name-mobile {
     display: none;
   }
-  main.container section.contenu h4#name-desktop {
+  main section.contenu h4#name-desktop {
     display: block;
     font-size: 2rem;
     width: 100%;
@@ -436,51 +448,51 @@ footer#pied a {
     font-family: "Raleway", sans-serif;
     order: 3;
   }
-  main.container section.contenu img {
+  main section.contenu img {
     width: 40%;
     margin: 20px auto;
     border-radius: 10px;
     float: left;
     order: 2;
   }
-  main.container section.contenu #texte-avion {
+  main section.contenu #texte-avion {
     order: 4;
     width: 50%;
     align-self: center;
   }
-  main.container #contact p.renseignements {
+  main #contact p.renseignements {
     width: 50%;
   }
-  main.container #contact p.renseignements a {
+  main #contact p.renseignements a {
     font-weight: 600;
   }
-  main.container #contact #contact-form {
+  main #contact #contact-form {
     width: 60%;
   }
-  main.container #contact #contact-form input, main.container #contact #contact-form textarea {
+  main #contact #contact-form input, main #contact #contact-form textarea {
     width: 100%;
   }
-  main.container #contact #contact-form #champ-obligatoire {
+  main #contact #contact-form #champ-obligatoire {
     font-size: 0.7rem;
     font-style: italic;
     margin-top: 10px;
     width: 100%;
   }
-  main.container #contact #contact-form button {
+  main #contact #contact-form button {
     margin: 30px auto;
     cursor: pointer;
     padding: 12px 22px;
   }
-  main.container #contact #contact-form #utilisation-donnees {
+  main #contact #contact-form #utilisation-donnees {
     width: 100%;
   }
-  main.container #contact #contact-form #utilisation-donnees input {
+  main #contact #contact-form #utilisation-donnees input {
     width: 20px;
   }
-  main.container #contact #contact-form #utilisation-donnees label {
+  main #contact #contact-form #utilisation-donnees label {
     font-size: 0.8rem;
   }
-  main.container #contact #contact-form #utilisation-donnees p#alerte-accept-data {
+  main #contact #contact-form #utilisation-donnees p#alerte-accept-data {
     font-size: 0.7rem;
     color: rgb(241, 47, 47);
     margin-top: 10px;
