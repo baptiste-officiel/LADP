@@ -1,7 +1,9 @@
 $couleur-txt-clair: #f5f5f5;
 $couleur-txt-fonce: #303030;
-$couleur-btn: #d18b84;
-
+// $couleur-btn: #d18b84;
+// $couleur-btn: #595B5A;
+// $couleur-btn: #354658;
+$couleur-btn: #929DAE;
 
 *{
     margin: 0;
@@ -83,7 +85,7 @@ a{
 
 .bande{
     width: 100%;
-    height: 90px;
+    height: 80px;
     // background: rgba(255, 255, 255, 0.793); 
     position: fixed;
     z-index: 10;
@@ -115,25 +117,28 @@ header#bandeau{
             display: flex;
             justify-content: space-between;
             position: fixed;
+            align-items: center;
             // Pour centrer la barre de nav 
             top: 0;
             left: 50%;
             transform: translateX(-50%);
             text-align: center;
             /* top: 10px; */
-            padding-top: 5px;
+            // padding-top: 5px;
             z-index: 100000000000;
             margin: 0 auto;
                 a:first-child{
                     z-index: 10000000;
                 }
                 .logo{
-                    width: 80px;
+                    width: 68px;
                     height: auto;
+                    margin-top: 5px;
                     margin-left: 20px;
                     /* margin-top: 20px; */
-                    /* background-color: black; */
+                    // background-color: black; 
                     z-index: 1000000;
+                    // align-self: center;
                 }
         }
 }
@@ -143,10 +148,14 @@ header#bandeau #nav-bandeau #menu-bandeau #burger-img{
     text-align: right;
     padding: 20px;
     cursor: pointer;
-    position: absolute;
+    // position: absolute;
     z-index: 100;
-    right: 10px;
-    top : 12px;
+    margin-right: 10px;
+    top : 0;
+    width: 26px;
+    height: auto;
+    // background: #000;
+    // align-self: center;
 }
 
 header#bandeau #nav-bandeau #menu-bandeau #menu{
@@ -185,9 +194,11 @@ header#bandeau #nav-bandeau #menu-bandeau #menu{
         // li:last-child 
         // }
         #croix{
+            width: 20px;
+            height: auto;
             position: absolute;
-            top: 25px;
-            right: 40px;
+            top: 20px;
+            right: 22px;
             padding: 10px;
             cursor: pointer;
         }
@@ -400,7 +411,7 @@ footer#pied{
     text-align: center;
     background-color: $couleur-txt-fonce;
     color: $couleur-txt-clair;
-    padding: 15px 0;
+    padding: 25px 0;
     a{
         color: $couleur-txt-clair;
         text-decoration: none;
@@ -408,10 +419,13 @@ footer#pied{
 }
 
 
-// ------------------------------- rgpd ---------------------------- 
+// ------------------------------- rgpd, mentions légales, confirmation contact ---------------------------- 
 #rgpd, #mentions-legales, #confirmation{
     width: 100%;
-    margin: 50px auto;
+    height: 50vh;
+    margin: 200px auto 0;
+    // padding: 50% auto;
+    box-sizing: border-box;
     p{
         width: 85%;
         margin: 0 auto;
@@ -439,6 +453,10 @@ footer#pied{
     font-size: 2.8rem;
    }
 
+   .bande{
+    height: 90px;
+   }
+
    header#bandeau{
     background: url(../img/lapd_3.jpeg) no-repeat;
     // background: white;
@@ -456,11 +474,16 @@ footer#pied{
         width: 100%;
         display: flex;
         justify-content: space-between;
+        .logo{
+            width: 80px;
+            height: auto;
+        }
     }
 
     header#bandeau #nav-bandeau #menu-bandeau{
         width: 50%;
-    }
+        
+    } 
 
     header#bandeau #nav-bandeau #menu-bandeau #menu{
         display: flex;

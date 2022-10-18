@@ -57,23 +57,23 @@ a {
 
 .bouton-orange {
   border: none;
-  border: 1px solid #d18b84;
+  border: 1px solid #929DAE;
   border-radius: 10px;
   padding: 8px 14px;
   box-sizing: border-box;
   text-transform: uppercase;
   color: #f5f5f5;
-  background-color: #d18b84;
+  background-color: #929DAE;
   transition: 0.3s;
 }
 .bouton-orange:hover {
   background: none;
-  color: #d18b84;
+  color: #929DAE;
 }
 
 .bande {
   width: 100%;
-  height: 90px;
+  height: 80px;
   position: fixed;
   z-index: 10;
 }
@@ -99,12 +99,12 @@ header#bandeau #nav-bandeau {
   display: flex;
   justify-content: space-between;
   position: fixed;
+  align-items: center;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
   /* top: 10px; */
-  padding-top: 5px;
   z-index: 100000000000;
   margin: 0 auto;
 }
@@ -112,11 +112,11 @@ header#bandeau #nav-bandeau a:first-child {
   z-index: 10000000;
 }
 header#bandeau #nav-bandeau .logo {
-  width: 80px;
+  width: 68px;
   height: auto;
+  margin-top: 5px;
   margin-left: 20px;
   /* margin-top: 20px; */
-  /* background-color: black; */
   z-index: 1000000;
 }
 
@@ -125,10 +125,11 @@ header#bandeau #nav-bandeau #menu-bandeau #burger-img {
   text-align: right;
   padding: 20px;
   cursor: pointer;
-  position: absolute;
   z-index: 100;
-  right: 10px;
-  top: 12px;
+  margin-right: 10px;
+  top: 0;
+  width: 26px;
+  height: auto;
 }
 
 header#bandeau #nav-bandeau #menu-bandeau #menu {
@@ -161,9 +162,11 @@ header#bandeau #nav-bandeau #menu-bandeau #menu li {
   padding: 20px 0;
 }
 header#bandeau #nav-bandeau #menu-bandeau #menu #croix {
+  width: 20px;
+  height: auto;
   position: absolute;
-  top: 25px;
-  right: 40px;
+  top: 20px;
+  right: 22px;
   padding: 10px;
   cursor: pointer;
 }
@@ -330,7 +333,7 @@ footer#pied {
   text-align: center;
   background-color: #303030;
   color: #f5f5f5;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 footer#pied a {
   color: #f5f5f5;
@@ -339,7 +342,9 @@ footer#pied a {
 
 #rgpd, #mentions-legales, #confirmation {
   width: 100%;
-  margin: 50px auto;
+  height: 50vh;
+  margin: 200px auto 0;
+  box-sizing: border-box;
 }
 #rgpd p, #mentions-legales p, #confirmation p {
   width: 85%;
@@ -363,6 +368,9 @@ footer#pied a {
   h2 {
     font-size: 2.8rem;
   }
+  .bande {
+    height: 90px;
+  }
   header#bandeau {
     background: url(../img/lapd_3.jpeg) no-repeat;
     background-size: cover;
@@ -378,6 +386,10 @@ footer#pied a {
     width: 100%;
     display: flex;
     justify-content: space-between;
+  }
+  header#bandeau #nav-bandeau .logo {
+    width: 80px;
+    height: auto;
   }
   header#bandeau #nav-bandeau #menu-bandeau {
     width: 50%;
