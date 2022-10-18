@@ -349,8 +349,8 @@ main #contact{
     // background-color: #EB3333;
     // background-color: rgb(223, 223, 223);
     color: $couleur-txt-fonce;
-    margin-bottom: 80px;
-    padding-top: 80px;
+    margin-bottom: 40px;
+    padding-top: 40px;
     p.renseignements{
         margin: 0 auto;
         text-align: center;
@@ -367,7 +367,7 @@ main #contact #contact-form{
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    margin: 30px auto;
+    margin: 0 auto;
     input, textarea{
         width: 90%;
         margin: 12px auto 0;
@@ -383,8 +383,9 @@ main #contact #contact-form{
         width: 100%;
     }
     button{
-        margin: 30px auto;
+        margin: 30px auto 10px;
         cursor: pointer;
+        padding: 10px 18px;
     }
 }
 

@@ -276,8 +276,8 @@ main section.contenu article.location p.conditions-location {
 
 main #contact {
   color: #303030;
-  margin-bottom: 80px;
-  padding-top: 80px;
+  margin-bottom: 40px;
+  padding-top: 40px;
 }
 main #contact p.renseignements {
   margin: 0 auto;
@@ -292,7 +292,7 @@ main #contact #contact-form {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  margin: 30px auto;
+  margin: 0 auto;
 }
 main #contact #contact-form input, main #contact #contact-form textarea {
   width: 90%;
@@ -309,8 +309,9 @@ main #contact #contact-form #champ-obligatoire {
   width: 100%;
 }
 main #contact #contact-form button {
-  margin: 30px auto;
+  margin: 30px auto 10px;
   cursor: pointer;
+  padding: 10px 18px;
 }
 
 main #contact #contact-form #utilisation-donnees {
