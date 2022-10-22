@@ -16,12 +16,12 @@
         <div id="menu-bandeau">
              <!-- On gère le menu burger en css à l'aide d'une checkbox  -->
              <!-- <label for="burger"> -->
-                <img src="./app/Public/front/img/burger.svg" alt="Menu" id="burger-img">
+                <img src="./app/Public/front/img/burger-simple-2.svg" alt="Menu" id="burger-img">
             <!-- </label> -->
              <!-- <input type="checkbox" name="burger" id="burger" role="button" aria-pressed="true"> -->
              
              <ul id="menu">
-                        <img src="./app/Public/front/img/croix.svg" alt="Croix" id="croix">
+                        <img src="./app/Public/front/img/blue-cross.svg" alt="Croix" id="croix">
                         <li><a href="index.php" class="white">Accueil</a></li>
                         <li><a href="#avion" class="white">Notre avion</a></li>
                         <li><a href="#location" class="white">Location</a></li>

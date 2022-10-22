@@ -5,6 +5,14 @@ $couleur-txt-fonce: #303030;
 // $couleur-btn: #354658;
 $couleur-btn: #929DAE;
 
+@font-face {
+    font-family: 'KnockKnock';
+    src: url('../fonts/knockknock/knockknock-webfont.woff') format('woff'),
+         url('../fonts/knockknock/knockknock-webfont.ttf') format('truetype'),
+         url('../fonts/knockknock/knockknock-webfont.svg') format('svg'),
+         url('../fonts/knockknock/knockknock-webfont.eot') format('eot');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -27,7 +35,8 @@ ul{
 }
 
 h1 span{
-    font-family: 'Oswald', sans-serif;
+    // font-family: 'Oswald', sans-serif;
+    font-family: 'KnockKnock', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -95,7 +104,7 @@ a{
     // background-color: $couleur-txt-clair;
     background-color: white;
     transition: 0.5s;
-    box-shadow: 0 0 6px black;
+    box-shadow: 0 0 16px rgb(136, 136, 136);
 }
 
 
@@ -150,7 +159,7 @@ header#bandeau #nav-bandeau #menu-bandeau #burger-img{
     cursor: pointer;
     // position: absolute;
     z-index: 100;
-    margin-right: 10px;
+    margin-right: 15px;
     top : 0;
     width: 26px;
     height: auto;
@@ -198,7 +207,7 @@ header#bandeau #nav-bandeau #menu-bandeau #menu{
             height: auto;
             position: absolute;
             top: 20px;
-            right: 22px;
+            right: 26px;
             padding: 10px;
             cursor: pointer;
         }
@@ -228,20 +237,19 @@ header#bandeau #text-header{
     margin-bottom: 0;
     padding-left: 30px;
     box-sizing: border-box;
-    font-size: 2.4rem;
+    font-size: 3.4rem;
     // background-color: white;
     span:last-child{
-        font-size: 1.7rem;
+        font-size: 2.4rem;
     }
     hr{
-        width: 80px;
+        width: 90px;
         height: 1px;
         border: 1px solid $couleur-txt-clair;
-        background-color: white;
+        background-color: $couleur-txt-clair;
         // background-color: $couleur-txt-fonce;
         border-radius: 50%;
         // margin: 10px auto;
-        color: $couleur-txt-fonce;
     }
 }
 }
