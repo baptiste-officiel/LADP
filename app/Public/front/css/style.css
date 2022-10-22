@@ -1,6 +1,38 @@
 @font-face {
-  font-family: "KnockKnock";
-  src: url("../fonts/knockknock/knockknock-webfont.woff") format("woff"), url("../fonts/knockknock/knockknock-webfont.ttf") format("truetype"), url("../fonts/knockknock/knockknock-webfont.svg") format("svg"), url("../fonts/knockknock/knockknock-webfont.eot") format("eot");
+  font-family: "knockknock";
+  src: url("../fonts/knockknock/knockknock-webfont.woff") format("woff"), url("../fonts/knockknock/knockknock-webfont.svg#knockknock") format("svg"), url("../fonts/knockknock/knockknock-webfont.woff2") format("woff"), url("../fonts/knockknock/knockknock-webfont.ttf") format("truetype"), url("../fonts/knockknock/knockknock-webfont.eot") format("eot");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Brakshoo";
+  src: url("../fonts/brakshoo/BRAKSHOO.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Hypik";
+  src: url("../fonts/hypik/hypik-webfont.woff") format("woff"), url("../fonts/hypik/hypik-webfont.ttf") format("truetype"), url("../fonts/hypik/hypik-webfont.svg") format("svg"), url("../fonts/hypik/hypik-webfont.eot") format("eot"), url("../fonts/hypik/hypik-webfont.woff2") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "kilby";
+  src: url("../fonts/kilby/kilby-webfont.woff") format("woff"), url("../fonts/kilby/kilby-bold-webfont.ttf") format("truetype"), url("../fonts/kilby/kilby-bold-webfont.svg") format("svg"), url("../fonts/kilby/kilby-bold-webfont.eot") format("eot"), url("../fonts/kilby/kilby-bold-webfont.woff2") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "metricas";
+  src: url("../fonts/metricas/Metricas.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "pointless";
+  src: url("../fonts/pointless/pointless-webfont.woff") format("woff"), url("../fonts/pointless/pointless-webfont.ttf") format("truetype"), url("../fonts/pointless/pointless-webfont.svg") format("svg"), url("../fonts/pointless/pointless-webfont.eot") format("eot"), url("../fonts/pointless/pointless-webfont.woff2") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "sacco";
+  src: url("../fonts/sacco/sacco-sembdcondobliq-webfont.woff") format("woff"), url("../fonts/sacco/sacco-sembdcondobliq-webfont.ttf") format("truetype"), url("../fonts/sacco/sacco-sembdcondobliq-webfont.svg") format("svg"), url("../fonts/sacco/sacco-sembdcondobliq-webfont.eot") format("eot"), url("../fonts/sacco/sacco-sembdcondobliq-webfont.woff2") format("woff");
+  font-style: normal;
+  font-weight: 400;
 }
 * {
   margin: 0;
@@ -22,7 +54,7 @@ ul {
 }
 
 h1 span {
-  font-family: "KnockKnock", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "knockknock", Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -33,7 +65,7 @@ h2 {
   font-size: 2.2rem;
   font-weight: 400;
   margin: 0 auto 40px;
-  color: #303030;
+  color: rebeccapurple;
   font-family: "Oswald", sans-serif;
 }
 
