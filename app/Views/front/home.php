@@ -30,8 +30,8 @@ require_once 'layouts/header.php';
 <article class="location" id="location">
 <div class="location-content">
 <h2>Location</h2>
-    <p class="conditions-location">L'avion est à louer pour une ou plusieurs journées, pour un minimum d'une heure. La location est autorisée en fonction de votre expérience. </p><br>
-    <p class="conditions-location"> Un entretien au préalable est nécessaire. Il peut également vous être demander d'effectuer une session avec un pilote afin de garantir un vol en toute sécurité </p>
+    <p class="conditions-location">L'avion est à louer pour une ou plusieurs journées, pour un minimum d'une heure. La location est autorisée en fonction de votre expérience. Un entretien au préalable est nécessaire. </p><br>
+    <p class="conditions-location">Il peut également vous être demandé d'effectuer une session avec un pilote afin de garantir un vol en toute sécurité </p>
 
 </div>
 </article>

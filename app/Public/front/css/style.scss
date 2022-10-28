@@ -111,9 +111,10 @@ h2{
     font-size: 2.2rem;
     font-weight: 400;
     margin: 0 auto 40px;
-    // color: $couleur-txt-fonce;
-    color: rebeccapurple;
-    font-family: 'Oswald', sans-serif;
+    color: $couleur-txt-fonce;
+    // color: rebeccapurple;
+    // font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -308,7 +309,7 @@ header#bandeau #text-header{
         font-size: 2.4rem;
     }
     hr{
-        width: 90px;
+        width: 110px;
         height: 1px;
         border: 1px solid $couleur-txt-clair;
         background-color: $couleur-txt-clair;
@@ -331,6 +332,7 @@ header#bandeau p{
     max-width: 250px;
     text-align: left;
     margin-left: 30px;
+    font-style: italic;
     // background-color: rebeccapurple;
     // background-color: $couleur-txt-clair;
     // padding: 2% 3%;
